@@ -1,28 +1,36 @@
-<!-- 
-Online HTML, CSS and JavaScript editor to run code online.
--->
-<!DOCTYPE html>
-<html lang="en">
+/* Reset básico e estilos do corpo */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+  display: flex;
+  flex-direction:column;
+}
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Browser</title>
-</head>
+/* Estilizando o contêiner da navbar */
+.navbar-container {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+}
 
-<body>
-<header class="navbar-container">
-        <div class="logo">
-            <a href="#">MeuLogo</a>
-        </div>
-        <nav class="menu-items">
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contato</a>
-        </nav>
-    </header>
-</body>
+/* Estilizando os links dentro da navbar para melhor visualização */
+.navbar-container a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; /* Adiciona um espaço entre os links */
+    font-size: 18px;
+}
 
-</html>
+.logo a {
+    font-weight: bold;
+    font-size: 24px;
+}
+   
+/* Aqui começa o flexbox */
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-intems;center;
+}
+
