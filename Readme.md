@@ -1,9 +1,28 @@
-<h1>meu primerio programa </h1>
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
 
->status do pojeto:![Static Badge](https://img.shields.io/badge/STATUS-DESENVOLVIMENTO-yellow)
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
 
+<body>
+<header class="navbar-container">
+        <div class="logo">
+            <a href="#">MeuLogo</a>
+        </div>
+        <nav class="menu-items">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+</body>
 
-para rodar este projeto na sua máquina,por favor,digite:
-```
-node app.js
-```
+</html>
